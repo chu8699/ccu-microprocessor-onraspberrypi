@@ -17,7 +17,7 @@
 ![image](img/cm.gif)
 
 ## flow chart
-![image](img/flow-chart.gif)
+![image](img/flow-chart.png)
 
 我們使用crontab設定開機後自動啟動boot.py，並且利用subprocess執行predict.py並且得到此程式的process id，
 若發生意外時，按下reset按鈕(使用中斷法)立即中止predict.py並重新啟動
