@@ -16,6 +16,14 @@
 ## confusion matrix
 ![image](img/cm.gif)
 
+## flow chart
+![image](img/flow-chart.gif)
+
+我們使用crontab設定開機後自動啟動boot.py，並且利用subprocess執行predict.py並且得到此程式的process id，
+若發生意外時，按下reset按鈕(使用中斷法)立即中止predict.py並重新啟動
+
+在predict.py，一開始設定LCD1602,開始按鈕(使用中斷法)以及麥克風，使用librosa package將音檔轉成時頻圖，
+用tensorflow lite預測，重複四次錄音即可得到預測的stock id，並且試著去爬取股價並透過外接喇叭撥放。
 
 
 ## Contributor
