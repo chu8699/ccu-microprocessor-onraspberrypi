@@ -26,7 +26,7 @@
 用tensorflow lite預測，重複四次錄音即可得到預測的stock id，並且試著去爬取股價並透過外接喇叭撥放。
 
 
-## Contributor
+## Collaborator
 |name|Contribution|
 |-------|----------|
 | [鎧碩](https://github.com/henk2525) |40%|
