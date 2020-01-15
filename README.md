@@ -30,5 +30,5 @@
 |name|Contribution|
 |-------|----------|
 | [鎧碩](https://github.com/henk2525) |40%|
-| [弘宇](https://github.com/eric0318) |30%|
+| [泓宇](https://github.com/eric0318) |30%|
 |浩程|30%|
