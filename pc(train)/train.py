@@ -205,14 +205,6 @@ def log_confusion_matrix(epoch, logs):
     with file_writer_cm.as_default():
         tf.summary.image("Confusion Matrix", cm_image, step=epoch)
 
-def get_model():
-    model = resnet34.ResNet34()
-
-    model.build(input_shape=(None, 250, 250, 3))
-    model.model().summary()
-
-    return model
-
 
 if __name__ == '__main__':
     logs_dir = "logs\\fit\\" + datetime.datetime.now().strftime("{}-%Y%m%d-%H%M%S".format('mfcc_cnn_tw'))
